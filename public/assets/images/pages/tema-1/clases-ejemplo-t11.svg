@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="851" height="740" viewBox="0 0 851 740">
+  <g id="Grupo_9917" data-name="Grupo 9917" transform="translate(-145 -2508)">
+    <g id="Grupo_9809" data-name="Grupo 9809" transform="translate(0 -24)">
+      <g id="Grupo_9803" data-name="Grupo 9803" transform="translate(704 6321)">
+        <g id="Rectángulo_2698" data-name="Rectángulo 2698" transform="translate(-364 -3338)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="211" height="144" stroke="none"/>
+          <rect x="0.5" y="0.5" width="210" height="143" fill="none"/>
+        </g>
+        <g id="Rectángulo_2696" data-name="Rectángulo 2696" transform="translate(-364 -3194)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="211" height="145" stroke="none"/>
+          <rect x="0.5" y="0.5" width="210" height="144" fill="none"/>
+        </g>
+        <rect id="Rectángulo_2700" data-name="Rectángulo 2700" width="46" height="145" transform="translate(-410 -3194)" fill="#026bb2"/>
+        <rect id="Rectángulo_2701" data-name="Rectángulo 2701" width="46" height="144" transform="translate(-410 -3338)" fill="#009da5"/>
+        <rect id="Rectángulo_2702" data-name="Rectángulo 2702" width="257" height="60" transform="translate(-410 -3398)" fill="#e6eef3"/>
+        <text id="numero" transform="translate(-337 -3278)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">numero</tspan></text>
+        <text id="crearHistoria_" data-name="crearHistoria()" transform="translate(-337 -3145)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">crearHistoria()</tspan></text>
+        <text id="HISTORIA" transform="translate(-328 -3363)" fill="#002b45" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">HISTORIA</tspan></text>
+        <text id="ATRIBUTOS" transform="translate(-379 -3217) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">ATRIBUTOS</tspan></text>
+        <text id="MÉTODOS" transform="translate(-379 -3075) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">MÉTODOS</tspan></text>
+        <text id="detalle" transform="translate(-337 -3249)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">detalle</tspan></text>
+        <text id="modificarHistoria_" data-name="modificarHistoria()" transform="translate(-337 -3116)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">modificarHistoria()</tspan></text>
+        <text id="consultarHistoria_" data-name="consultarHistoria()" transform="translate(-337 -3087)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">consultarHistoria()</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_9808" data-name="Grupo 9808" transform="translate(0 -24)">
+      <g id="Grupo_9804" data-name="Grupo 9804" transform="translate(704 6321)">
+        <g id="Rectángulo_2699" data-name="Rectángulo 2699" transform="translate(-67 -3338)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="211" height="144" stroke="none"/>
+          <rect x="0.5" y="0.5" width="210" height="143" fill="none"/>
+        </g>
+        <g id="Rectángulo_2695" data-name="Rectángulo 2695" transform="translate(-67 -3194)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+          <rect width="211" height="145" stroke="none"/>
+          <rect x="0.5" y="0.5" width="210" height="144" fill="none"/>
+        </g>
+        <rect id="Rectángulo_2694" data-name="Rectángulo 2694" width="46" height="145" transform="translate(-113 -3194)" fill="#026bb2"/>
+        <rect id="Rectángulo_2697" data-name="Rectángulo 2697" width="46" height="144" transform="translate(-113 -3338)" fill="#009da5"/>
+        <rect id="Rectángulo_2703" data-name="Rectángulo 2703" width="257" height="60" transform="translate(-113 -3398)" fill="#e6eef3"/>
+        <text id="crearServicio_" data-name="crearServicio()" transform="translate(-40 -3161)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">crearServicio()</tspan></text>
+        <text id="SERVICIO" transform="translate(-30 -3363)" fill="#002b45" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">SERVICIO</tspan></text>
+        <text id="ATRIBUTOS-2" data-name="ATRIBUTOS" transform="translate(-82 -3217) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">ATRIBUTOS</tspan></text>
+        <text id="MÉTODOS-2" data-name="MÉTODOS" transform="translate(-82 -3075) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">MÉTODOS</tspan></text>
+        <text id="codigo" transform="translate(-40 -3289)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">codigo</tspan></text>
+        <text id="modificarServicio_" data-name="modificarServicio()" transform="translate(-40 -3132)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">modificarServicio()</tspan></text>
+        <text id="descripcion" transform="translate(-40 -3260)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">descripcion</tspan></text>
+        <text id="EliminarServicio_" data-name="EliminarServicio()" transform="translate(-40 -3103)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">EliminarServicio()</tspan></text>
+        <text id="fechaNacimiento" transform="translate(-40 -3231)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">fechaNacimiento</tspan></text>
+        <text id="ConsultarServicio_" data-name="ConsultarServicio()" transform="translate(-40 -3074)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">ConsultarServicio()</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_9805" data-name="Grupo 9805" transform="translate(0 -24)">
+      <g id="Rectángulo_2679" data-name="Rectángulo 2679" transform="translate(191 2592)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="144" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="143" fill="none"/>
+      </g>
+      <g id="Rectángulo_2680" data-name="Rectángulo 2680" transform="translate(191 2736)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="145" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="144" fill="none"/>
+      </g>
+      <rect id="Rectángulo_2682" data-name="Rectángulo 2682" width="46" height="145" transform="translate(145 2736)" fill="#026bb2"/>
+      <rect id="Rectángulo_2681" data-name="Rectángulo 2681" width="46" height="144" transform="translate(145 2592)" fill="#009da5"/>
+      <rect id="Rectángulo_2683" data-name="Rectángulo 2683" width="257" height="60" transform="translate(145 2532)" fill="#e6eef3"/>
+      <text id="cedula" transform="translate(218 2624)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">cedula</tspan></text>
+      <text id="crearPersona_" data-name="crearPersona()" transform="translate(218 2769)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">crearPersona()</tspan></text>
+      <text id="PERSONA" transform="translate(228 2567)" fill="#002b45" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">PERSONA</tspan></text>
+      <text id="ATRIBUTOS-3" data-name="ATRIBUTOS" transform="translate(176 2713) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">ATRIBUTOS</tspan></text>
+      <text id="MÉTODOS-3" data-name="MÉTODOS" transform="translate(176 2855) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">MÉTODOS</tspan></text>
+      <text id="nombre" transform="translate(218 2653)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">nombre</tspan></text>
+      <text id="modificarPersona_" data-name="modificarPersona()" transform="translate(218 2798)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">modificarPersona()</tspan></text>
+      <text id="apellido" transform="translate(218 2682)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">apellido</tspan></text>
+      <text id="EliminarPersona_" data-name="EliminarPersona()" transform="translate(218 2827)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">EliminarPersona()</tspan></text>
+      <text id="Telefono" transform="translate(218 2711)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">Telefono</tspan></text>
+      <text id="ConsultarPersona_" data-name="ConsultarPersona()" transform="translate(218 2856)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">ConsultarPersona()</tspan></text>
+    </g>
+    <g id="Grupo_9806" data-name="Grupo 9806" transform="translate(0 -24)">
+      <g id="Rectángulo_2686" data-name="Rectángulo 2686" transform="translate(488 2592)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="144" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="143" fill="none"/>
+      </g>
+      <g id="Rectángulo_2688" data-name="Rectángulo 2688" transform="translate(488 2736)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="145" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="144" fill="none"/>
+      </g>
+      <rect id="Rectángulo_2687" data-name="Rectángulo 2687" width="46" height="145" transform="translate(442 2736)" fill="#026bb2"/>
+      <rect id="Rectángulo_2684" data-name="Rectángulo 2684" width="46" height="144" transform="translate(442 2592)" fill="#009da5"/>
+      <rect id="Rectángulo_2685" data-name="Rectángulo 2685" width="257" height="60" transform="translate(442 2532)" fill="#e6eef3"/>
+      <text id="crearPaciente_" data-name="crearPaciente()" transform="translate(515 2769)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">crearPaciente()</tspan></text>
+      <text id="PACIENTE" transform="translate(525 2567)" fill="#002b45" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">PACIENTE</tspan></text>
+      <text id="ATRIBUTOS-4" data-name="ATRIBUTOS" transform="translate(473 2713) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">ATRIBUTOS</tspan></text>
+      <text id="MÉTODOS-4" data-name="MÉTODOS" transform="translate(473 2855) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">MÉTODOS</tspan></text>
+      <text id="nombre-2" data-name="nombre" transform="translate(515 2641)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">nombre</tspan></text>
+      <text id="modificarPaciente_" data-name="modificarPaciente()" transform="translate(515 2798)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">modificarPaciente()</tspan></text>
+      <text id="raza" transform="translate(515 2670)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">raza</tspan></text>
+      <text id="EliminarPaciente_" data-name="EliminarPaciente()" transform="translate(515 2827)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">EliminarPaciente()</tspan></text>
+      <text id="fechaNacimiento-2" data-name="fechaNacimiento" transform="translate(515 2699)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">fechaNacimiento</tspan></text>
+      <text id="ConsultarPaciente_" data-name="ConsultarPaciente()" transform="translate(515 2856)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">ConsultarPaciente()</tspan></text>
+    </g>
+    <g id="Grupo_9807" data-name="Grupo 9807" transform="translate(0 -24)">
+      <g id="Rectángulo_2691" data-name="Rectángulo 2691" transform="translate(785 2592)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="144" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="143" fill="none"/>
+      </g>
+      <g id="Rectángulo_2693" data-name="Rectángulo 2693" transform="translate(785 2736)" fill="#fff" stroke="#dbdbdb" stroke-width="1">
+        <rect width="211" height="145" stroke="none"/>
+        <rect x="0.5" y="0.5" width="210" height="144" fill="none"/>
+      </g>
+      <rect id="Rectángulo_2692" data-name="Rectángulo 2692" width="46" height="145" transform="translate(739 2736)" fill="#026bb2"/>
+      <rect id="Rectángulo_2689" data-name="Rectángulo 2689" width="46" height="144" transform="translate(739 2592)" fill="#009da5"/>
+      <rect id="Rectángulo_2690" data-name="Rectángulo 2690" width="257" height="60" transform="translate(739 2532)" fill="#e6eef3"/>
+      <text id="fecha" transform="translate(812 2641)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">fecha</tspan></text>
+      <text id="insertarPago_" data-name="insertarPago()" transform="translate(812 2799)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">insertarPago()</tspan></text>
+      <text id="PAGO" transform="translate(841 2567)" fill="#002b45" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">PAGO</tspan></text>
+      <text id="ATRIBUTOS-5" data-name="ATRIBUTOS" transform="translate(770 2713) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">ATRIBUTOS</tspan></text>
+      <text id="MÉTODOS-5" data-name="MÉTODOS" transform="translate(770 2855) rotate(-90)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="0" y="0">MÉTODOS</tspan></text>
+      <text id="concepto" transform="translate(812 2670)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">concepto</tspan></text>
+      <text id="consultarPago_" data-name="consultarPago()" transform="translate(812 2828)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">consultarPago()</tspan></text>
+      <text id="valor" transform="translate(812 2699)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="0">valor</tspan></text>
+    </g>
+  </g>
+</svg>

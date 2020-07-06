@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="418" height="98.133" viewBox="0 0 418 98.133">
+  <g id="Grupo_9863" data-name="Grupo 9863" transform="translate(-174 -3449)">
+    <g id="Grupo_9859" data-name="Grupo 9859" transform="translate(-20 38)">
+      <text id="Primera.class" transform="translate(232 3481)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="17">Primera.class</tspan></text>
+      <g id="Grupo_9858" data-name="Grupo 9858" transform="translate(133 3475)">
+        <path id="Trazado_8999" data-name="Trazado 8999" d="M86.707,8.293l-8-8A1,1,0,0,0,78,0H64a3,3,0,0,0-3,3V31.133a3,3,0,0,0,3,3H84a3,3,0,0,0,3-3V9A1.009,1.009,0,0,0,86.707,8.293ZM79,3.414,83.586,8H80a1,1,0,0,1-1-1Zm5,28.719H64a1,1,0,0,1-1-1V3a1,1,0,0,1,1-1H77V7a3,3,0,0,0,3,3h5V31.133A1,1,0,0,1,84,32.133Z" transform="translate(0 0)" fill="#768088"/>
+      </g>
+    </g>
+    <g id="Grupo_9861" data-name="Grupo 9861" transform="translate(170 -15)">
+      <text id="Primera.Java" transform="translate(232 3534)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="17">Primera.Java</tspan></text>
+      <g id="Grupo_9860" data-name="Grupo 9860">
+        <g id="Grupo_9858-2" data-name="Grupo 9858" transform="translate(133 3528)">
+          <path id="Trazado_8999-2" data-name="Trazado 8999" d="M86.707,8.293l-8-8A1,1,0,0,0,78,0H64a3,3,0,0,0-3,3V31.133a3,3,0,0,0,3,3H84a3,3,0,0,0,3-3V9A1.009,1.009,0,0,0,86.707,8.293ZM79,3.414,83.586,8H80a1,1,0,0,1-1-1Zm5,28.719H64a1,1,0,0,1-1-1V3a1,1,0,0,1,1-1H77V7a3,3,0,0,0,3,3h5V31.133A1,1,0,0,1,84,32.133Z" transform="translate(0 0)" fill="#768088"/>
+        </g>
+        <rect id="Rectángulo_2813" data-name="Rectángulo 2813" width="23" height="12" transform="translate(190 3543)" fill="#ff0404"/>
+        <text id="Java" transform="translate(192 3543)" fill="#fff" font-size="9" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="9">Java</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_9862" data-name="Grupo 9862">
+      <text id="Este_equipo_Datos_D:_CursoJava" data-name="Este equipo        Datos(D:)        CursoJava" transform="translate(174 3449)" fill="#507388" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="17" xml:space="preserve">Este equipo        Datos(D:)        CursoJava</tspan></text>
+      <path id="Polígono_4" data-name="Polígono 4" d="M5,0l5,8.462H0Z" transform="translate(294 3455) rotate(90)" fill="#507388"/>
+      <path id="Polígono_5" data-name="Polígono 5" d="M5,0l5,8.462H0Z" transform="translate(408 3455) rotate(90)" fill="#507388"/>
+    </g>
+    <path id="Trazado_9000" data-name="Trazado 9000" d="M174,3486H590" transform="translate(0 4)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

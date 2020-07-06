@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="346" height="61" viewBox="0 0 346 61">
+  <g id="Grupo_9888" data-name="Grupo 9888" transform="translate(-422 -7290)">
+    <g id="Grupo_9887" data-name="Grupo 9887" transform="translate(286 69)">
+      <path id="Trazado_9038" data-name="Trazado 9038" d="M0,0H346V61H0Z" transform="translate(136 7221)" fill="#e6eef3"/>
+    </g>
+    <text id="etiqueta.setForeground_Color.red_" data-name="etiqueta.setForeground(Color.red);" transform="translate(441 7310)" fill="#00223d" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="10.665" y="17">etiqueta.setForeground(Color.red);</tspan></text>
+  </g>
+</svg>

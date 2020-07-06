@@ -1,0 +1,60 @@
+[
+  {
+    "letter": "A",
+    "terms": [
+      {
+        "title": "Atributo:",
+        "desciption": "Es cada uno de los datos definidos para un objeto."
+      }
+    ]
+  },
+  {
+    "letter": "I",
+    "terms": [
+      {
+        "title": "IDE:",
+        "desciption": "Integrated Development Environment, traducido al español como Entorno de Desarrollo Integrado; es un software que a través de una interfaz gráfica, facilita al programador la escritura de código en diferentes lenguajes de programación."
+      }
+    ]
+  },
+  {
+    "letter": "J",
+    "terms": [
+      {
+        "title": "JDK:",
+        "desciption": "Java Development Kit, traducido al español como Kit de Desarrollo de Java; es un software requerido para correr programas que son escritos en lenguaje Java."
+      },
+      {
+        "title": "JRE:",
+        "desciption": "Java Runtime Environment, consiste en un conjunto de herramientas de software que posibilita la ejecución de programas escritos en Java."
+      }
+    ]
+  },
+  {
+    "letter": "M",
+    "terms": [
+      {
+        "title": "Método:",
+        "desciption": "Es cada una de las funcionalidades definidas para un objeto."
+      }
+    ]
+  },  
+  {
+    "letter": "P",
+    "terms": [
+      {
+        "title": "Paradigma:",
+        "desciption": "Consiste en la forma en que se escriben los códigos de un programa."
+      }
+    ]
+  },      
+  {
+    "letter": "S",
+    "terms": [
+      {
+        "title": "Soluciones a la medida:",
+        "desciption": "Programas creados a partir de una lista de requerimientos definida con anterioridad, de acuerdo con las necesidades del cliente."
+      }
+    ]
+  }
+]

@@ -1,0 +1,163 @@
+include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
+
+.container#page-introduccion
+
+    .header-ecored
+        h1 2. Entorno de trabajo
+
+    .jumbotron.bg-white.mb-0
+
+        p En este apartado del material de formación, se menciona el software requerido para la programación de aplicaciones y applets con el lenguaje orientado a objetos Java; de igual manera, se indica la forma de obtener dicho programa, instalarlo y configurarlo.
+
+    #tema-21.header-ecored
+        h2 2.1 ¿Qué lo compone?
+
+    .jumbotron.bg-white.mb-0
+
+        p El entorno de trabajo para la escritura y ejecución de programas desarrollados con el lenguaje Java está compuesto básicamente por dos softwares que son: el IDE NetBeans y el JDK (Java Development Kit, traducido al español como Kit de Desarrollo de Java).
+
+    .bg-brand-color-light.mt-0
+
+        .row.align-items-center
+            .col-2.p-4
+                p.text-center
+                    img(src="assets/images/pages/tema-2/t21-icono.svg").img-fluid
+            .col-10
+                .p-4
+                    p Es importante tener en cuenta que el IDE NetBeans se sugiere como entorno de desarrollo para la escritura de los programas; sin embargo, queda a gusto del aprendiz, el hecho de utilizar un entorno diferente, dado que existen otros, como por ejemplo Eclipse, el cual brinda la misma funcionalidad.
+
+    hr.line-100.bg-brand-color-secondary.mt-0
+
+    #tema-22.header-ecored
+        h2 2.2 ¿Cómo se obtiene?
+
+    .jumbotron.bg-white.mb-0
+
+        p Una de las grandes ventajas en el desarrollo de soluciones con el lenguaje Java es que ambos softwares son gratuitos y de fácil consecución a través de internet; a continuación, se explica con detalle el proceso para descargar ambos programas.
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/l1i22tQablc', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body
+                p <b>Instalación JDK (Java Development Kit)</b>
+
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/l1i22tQablc', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body
+                p <b>Instalación de NetBeans</b>
+
+    #tema-23.header-ecored
+        h2 2.3 Ejemplo completo
+
+    .jumbotron.bg-white.mb-0
+
+        p Teniendo ya listo el entorno de trabajo para el desarrollo de aplicaciones con el lenguaje Java, se realiza a continuación un ejemplo completo que ilustra la forma cómo se integran estos dos softwares.
+
+        p El ejemplo consiste en programar un applet en modo gráfico que esté compuesto por tres botones y una etiqueta de texto; de acuerdo con el botón que se presione, el color del texto de la etiqueta cambiará.
+
+        p Se observa a continuación el paso a paso para la creación de dicho applet.
+
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 1: 
+            | crear un nuevo proyecto en NetBeans.
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p1.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 2:
+            | asignar un nombre al proyecto y dar clic en Terminar
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p2.svg").img-fluid
+        
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 3:
+            | cerrar la clase principal creada y posteriormente eliminarla, ya que en la programación de un applet no es requerida.
+        
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p3.svg").img-fluid
+
+        hr.my-4
+        
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 4:
+            | agregar un formulario JApplet, luego darle un nombre y dar clic en Terminar.
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p4.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 5:
+            | se observa en el entorno de NetBeans, el área del formulario, el panel de propiedades y el cuadro de herramientas con los elementos que se pueden arrastrar para crear la interfaz gráfica del applet.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p5.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 6:
+            | se inicia la creación de la interfaz gráfica del formulario, arrastrando del cuadro de herramientas la etiqueta y los tres botones requeridos; se ubican en el área del formulario y se da clic derecho a cada uno de estos para cambiarle el nombre (en el ejercicio serán llamados etiqueta, btn1, btn2 y btn3). A través del panel de propiedades se les realiza las configuraciones deseadas (textos, colores, tipo de fuente, bordes, entre otros).
+        
+        p El diseño del formulario debe quedar similar al que se muestra en la siguiente figura:
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p6.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 7:
+            | ahora se hace doble clic en cada uno de los botones para programar la acción que estos deben efectuar cuando sean presionados por el usuario que ejecuta el applet; el código es el siguiente:
+        
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p7.svg").img-fluid
+
+        p Donde <b>etiqueta</b> es el nombre que se le dio a la etiqueta que tiene el texto Servicio Nacional de Aprendizaje; <b>setForeground</b> se utiliza para modificar la propiedad del color del texto y <b>Color.red</b> modifica dicha propiedad al color rojo; naturalmente para los otros dos botones deben usarse los colores yellow y blue, respectivamente. El código de los botones queda como se observa en la siguiente figura.
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p7-2.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 8:
+            | una vez terminada la programación, se ejecuta el applet dando clic derecho al formulario en el visor de proyectos, y seleccionando la opción Ejecutar archivo.
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p8.svg").img-fluid
+
+        hr.my-4
+        
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 9:
+            | el applet se carga, inicia y muestra la interfaz del formulario
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p9.svg").img-fluid
+
+        hr.my-4
+
+        p.mt-5
+            span.text-color-orange.mr-1 Paso 10:
+            | probar el applet presionando cada botón y observando el resultado generado.
+        
+
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-2/p10.svg").img-fluid                                                                                                

@@ -1,0 +1,92 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "path": "pages/introduccion.html"
+  }, 
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "variables",
+    "title": "1. Variables",
+    "path": "pages/tema-1.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "declaracion",
+        "title": "1.1 ¿Cómo se declaran?",
+        "path": "pages/tema-11.html"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tipos",
+        "title": "1.2 Tipos",
+        "path": "pages/tema-12.html"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "tipos-datos",
+    "title": "2. Tipos de datos",
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tipos-datos",
+        "title": "2.1 Primitivos",
+        "anchor": "tema-21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "tipos-datos",
+        "title": "2.2 Clases",
+        "anchor": "tema-22"
+      }
+    ]    
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "operaciones-basicas",
+    "title": "3. Operaciones básicas",
+    "path": "pages/tema-3.html",
+    "submenu": [
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "operadores",
+        "title": "3.1 Operadores",
+        "path": "pages/tema-31.html"
+      },
+      {
+        "icon": "fa fa-play-circle",
+        "slug": "jerarquia",
+        "title": "3.2 Jerarquía",
+        "path": "pages/tema-32.html"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "funciones",
+    "title": "4. Funciones",
+    "path": "pages/tema-4.html"
+  },
+  {
+    "icon": "fa fa-file-text-o",
+    "slug": "entrada-informacion",
+    "title": "5. Entrada de información",
+    "path": "pages/tema-5.html"
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }   
+]
