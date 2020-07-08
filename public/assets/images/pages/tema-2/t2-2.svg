@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1023" height="466" viewBox="0 0 1023 466">
+  <g id="Grupo_10383" data-name="Grupo 10383" transform="translate(-61 -1517)">
+    <rect id="Rectángulo_2857" data-name="Rectángulo 2857" width="1021" height="50" transform="translate(61 1591)" fill="#c7d0d6"/>
+    <rect id="Rectángulo_2863" data-name="Rectángulo 2863" width="1021" height="50" transform="translate(61 1705)" fill="#c7d0d6"/>
+    <rect id="Rectángulo_2924" data-name="Rectángulo 2924" width="1021" height="50" transform="translate(61 1819)" fill="#c7d0d6"/>
+    <rect id="Rectángulo_2925" data-name="Rectángulo 2925" width="1021" height="50" transform="translate(61 1933)" fill="#c7d0d6"/>
+    <rect id="Rectángulo_2861" data-name="Rectángulo 2861" width="1021" height="50" transform="translate(61 1648)" fill="#e6eef3"/>
+    <rect id="Rectángulo_2862" data-name="Rectángulo 2862" width="1021" height="50" transform="translate(61 1762)" fill="#e6eef3"/>
+    <rect id="Rectángulo_2923" data-name="Rectángulo 2923" width="1021" height="50" transform="translate(61 1876)" fill="#e6eef3"/>
+    <text id="byte" transform="translate(61 1605)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="61.367" y="16">byte</tspan></text>
+    <text id="_-128" data-name="-128" transform="translate(219 1605)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="125.848" y="16">-128</tspan></text>
+    <text id="_128" data-name="128" transform="translate(507 1605)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="129.988" y="16">128</tspan></text>
+    <text id="_0" data-name="0" transform="translate(794 1605)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="138.996" y="16">0</tspan></text>
+    <text id="int" transform="translate(61 1719)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="68.137" y="16">int</tspan></text>
+    <text id="_-2147483648" data-name="-2147483648" transform="translate(219 1719)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="94.32" y="16">-2147483648</tspan></text>
+    <text id="_2147483648" data-name="2147483648" transform="translate(507 1719)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="98.461" y="16">2147483648</tspan></text>
+    <text id="_0-2" data-name="0" transform="translate(794 1719)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="138.996" y="16">0</tspan></text>
+    <text id="float" transform="translate(61 1833)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="60.945" y="16">float</tspan></text>
+    <text id="_3.4028235x1038" data-name="±3.4028235x1038" transform="translate(219 1833)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="80.15" y="16">±3.4028235x10</tspan><tspan y="16" font-size="12">38</tspan></text>
+    <text id="_1.4023984x10-45" data-name="±1.4023984x10-45" transform="translate(507 1833)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="77.045" y="16">±1.4023984x10</tspan><tspan y="16" font-size="12">-45</tspan></text>
+    <text id="_0.0" data-name="0.0" transform="translate(794 1833)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="132.477" y="16">0.0</tspan></text>
+    <text id="boolean" transform="translate(61 1947)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="47.266" y="16">boolean</tspan></text>
+    <text id="true_o_false" data-name="true o false" transform="translate(219 1947)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="103.609" y="16">true o false</tspan></text>
+    <text id="_---" data-name="---" transform="translate(507 1947)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="131.078" y="16">---</tspan></text>
+    <text id="false" transform="translate(794 1947)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="126.645" y="16">false</tspan></text>
+    <text id="short" transform="translate(61 1662)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="58.375" y="16">short</tspan></text>
+    <text id="_-32768" data-name="-32768" transform="translate(219 1662)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="116.84" y="16">-32768</tspan></text>
+    <text id="_32768" data-name="32768" transform="translate(507 1662)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="120.98" y="16">32768</tspan></text>
+    <text id="_0-3" data-name="0" transform="translate(794 1662)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="138.996" y="16">0</tspan></text>
+    <text id="long" transform="translate(61 1776)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="61.328" y="16">long</tspan></text>
+    <text id="_-9223372036854775808" data-name="-9223372036854775808" transform="translate(219 1776)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="53.785" y="16">-9223372036854775808</tspan></text>
+    <text id="_9223372036854775808" data-name="9223372036854775808" transform="translate(507 1776)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="57.926" y="16">9223372036854775808</tspan></text>
+    <text id="_0-4" data-name="0" transform="translate(794 1776)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="138.996" y="16">0</tspan></text>
+    <text id="double" transform="translate(61 1890)" fill="#002b45" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="51.434" y="16">double</tspan></text>
+    <text id="_1.79769313486231570x10308" data-name="±1.79769313486231570x10308" transform="translate(219 1890)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="31.733" y="16">±1.79769313486231570x10</tspan><tspan y="16" font-size="12">308</tspan></text>
+    <text id="_4.94065645841246544x10-324" data-name="±4.94065645841246544x10-324" transform="translate(507 1890)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="28.628" y="16">±4.94065645841246544x10</tspan><tspan y="16" font-size="12">-324</tspan></text>
+    <text id="_0.0-2" data-name="0.0" transform="translate(794 1890)" fill="#002b45" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="132.477" y="16">0.0</tspan></text>
+    <rect id="Rectángulo_2856" data-name="Rectángulo 2856" width="157" height="68" transform="translate(61 1517)" fill="#014c7f"/>
+    <path id="Trazado_9553" data-name="Trazado 9553" d="M0,0H287.71V68H0Z" transform="translate(218 1517)" fill="#015e7a"/>
+    <path id="Trazado_9555" data-name="Trazado 9555" d="M0,0H287.71V68H0Z" transform="translate(506.097 1517)" fill="#006d72"/>
+    <path id="Trazado_9556" data-name="Trazado 9556" d="M0,0H287.71V68H0Z" transform="translate(794.214 1517)" fill="#007a6b"/>
+    <text id="TIPO" transform="translate(61 1541)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="57.828" y="17">TIPO</tspan></text>
+    <text id="VALOR_MÍNIMO" data-name="VALOR MÍNIMO" transform="translate(219 1541)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="73.645" y="17">VALOR MÍNIMO</tspan></text>
+    <text id="VALOR_MÁXIMO" data-name="VALOR MÁXIMO" transform="translate(506.117 1541)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="71.116" y="17">VALOR MÁXIMO</tspan></text>
+    <text id="VALOR_POR_DEFECTO" data-name="VALOR POR DEFECTO" transform="translate(794 1540)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="51.796" y="17">VALOR POR DEFECTO</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="939" height="267" viewBox="0 0 939 267">
+  <g id="Grupo_10837" data-name="Grupo 10837" transform="translate(-105 -1074)">
+    <path id="Trazado_9598" data-name="Trazado 9598" d="M0,0H939V267H0Z" transform="translate(105 1074)" fill="#001f34"/>
+    <text id="public_void_EmpleadoEdad_int_edad_0_edad_edad_7_System.out.println_La_edad_del_empleado_es:_edad_" data-name="public void EmpleadoEdad( )
+    {
+        int edad = 0;
+        edad = edad + 7;
+        System.out.println(“La edad del empleado es: “ + edad);
+    }
+" transform="translate(145 1116.5)" fill="#fff" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="17">public </tspan><tspan y="17" fill="#f6246c">void</tspan><tspan y="17"> </tspan><tspan y="17" fill="#19f6d5">EmpleadoEdad</tspan><tspan y="17">( )</tspan><tspan x="0" y="47" xml:space="preserve">    {</tspan><tspan x="0" y="77" xml:space="preserve">        int edad </tspan><tspan y="77" fill="#f6246c">=</tspan><tspan y="77" xml:space="preserve"> 0;</tspan><tspan x="0" y="107" xml:space="preserve">        edad </tspan><tspan y="107" fill="#f6246c">=</tspan><tspan y="107" xml:space="preserve"> edad </tspan><tspan y="107" fill="#f6246c">+</tspan><tspan y="107" xml:space="preserve"> 7;</tspan><tspan x="0" y="137" xml:space="preserve">       </tspan><tspan y="137" xml:space="preserve" fill="#19f6d5"> System.</tspan><tspan y="137">out</tspan><tspan y="137" fill="#19f6d5">.println</tspan><tspan y="137">(“La edad del empleado es: “ </tspan><tspan y="137" fill="#f6246c">+ </tspan><tspan y="137">edad);</tspan><tspan x="0" y="167" xml:space="preserve">    }</tspan><tspan x="0" y="197"></tspan></text>
+  </g>
+</svg>

@@ -18,49 +18,23 @@
 </div>
 <div class="container" id="page-introduccion">
     <div class="header-ecored">
-        <h2>1.1 Conceptos básicos</h2>
+        <h2>1.1 ¿Cómo se declaran?</h2>
     </div>
     <div class="jumbotron bg-white mb-0">
-        <p class="mb-5">Para comprender mejor la programación orientada a objetos, es necesario identificar los conceptos básicos, tal y como se muestran en la siguiente figura:</p>
-        <p class="text-center my-6"><img class="img-fluid" src="assets/images/pages/tema-1/t11.svg" /></p>
-        <p class="mt-5">Cuando se va a proceder con la programación de un sistema bajo el paradigma orientado a objetos, el primer paso es efectuar algo llamado abstracción, lo cual consiste básicamente en identificar los componentes del sistema, sus características y funcionalidades. Dichos componentes son fácilmente identificables a través del análisis de sustantivos; es decir, analizando aquellos elementos que harán parte del sistema y que pueden definirse como personas, animales o cosas (estos serán los que se denominen objetos).</p>
-        <p>Teniendo en cuenta lo anterior, es necesario precisar en lo siguiente:</p>
-        <p class="header-step mt-5"><span class="header-step-number text-color-orange">01</span><span class="header-step-title"><strong>Objeto:</strong> elemento que hace parte del sistema y del cual se pueden definir ciertos datos y funcionalidades; de allí se puede inferir que los objetos están compuestos por atributos y métodos, donde los atributos corresponden a dichos datos y los métodos a las funcionalidades mencionadas.</span></p>
+        <p class="mb-5">Para declarar variables se debe contar con tres aspectos básicos que son: tipo de dato, nombre de variable y valor; sin embargo, si se trata de variables que sean propias de un objeto, debe tenerse en cuenta también la privacidad.</p>
+        <p>Algunos ejemplos de declaración de variables son los siguientes:</p>
+        <p class="text-center my-6"><img class="img-fluid" src="assets/images/pages/tema-1/t11-1.svg" /></p>
+        <p class="mt-5">En los ejemplos anteriores se observan los tres aspectos básicos mencionados; están los tipos de datos int, long, String y boolean, y están los nombres de variables valor, nota, texto y acepta; asimismo, a cada una de esas cuatro variables de ejemplo, se les ha asignado un valor inicial.</p>
+        <p>En el caso de las variables que sean propias de un objeto, los ejemplos serían los siguientes:</p>
+        <p class="text-center my-6"><img class="img-fluid" src="assets/images/pages/tema-1/t11-2.svg" /></p>
+        <p>Las palabras private y public hacen referencia a la privacidad de los atributos, entendiéndose de la siguiente forma:</p>
+        <p class="header-step mt-5"><span class="header-step-number text-color-orange">01</span><span class="header-step-title"><strong>private:</strong> el atributo puede ser accedido únicamente por la misma clase.</span></p>
         <hr class="my-4" />
-        <p class="header-step"><span class="header-step-number text-color-orange">02</span><span class="header-step-title"><strong>Clase:</strong> es un modelo que almacena la estructura básica de un objeto; es decir, se definen en esta los atributos y métodos que van a componer los objetos.</span></p>
+        <p class="header-step"><span class="header-step-number text-color-orange">02</span><span class="header-step-title"><strong>public:</strong> el atributo puede ser accedido desde cualquier clase o instancia.</span></p>
         <hr class="my-4" />
-        <p class="header-step"><span class="header-step-number text-color-orange">03</span><span class="header-step-title"><strong>Instancia:</strong> consiste en cada uno de los objetos creados a partir de una clase.</span></p>
-    </div>
-    <div class="bg-brand-color-light mt-0">
-        <div class="row">
-            <div class="col-2 flex-center">
-                <p class="text-center p-4"><img class="img-fluid" src="assets/images/pages/tema-1/icono-ejemplo-t11.svg" /></p>
-            </div>
-            <div class="col-10">
-                <div class="p-4">
-                    <h3 class="font-weight-bolder">EJEMPLO PRÁCTICO</h3>
-                    <p>Para comprender mejor la conceptualización que se acaba de plasmar en cuanto a la programación orientada a objetos, se ilustra el siguiente ejemplo:</p>
-                    <p class="font-weight-lighter text-monospace">Se requiere apoyar la gestión institucional de un centro veterinario generando una solución informática que permita administrar las historias clínicas, el registro de usuarios, de médicos, pacientes, formas de pago y servicios ofrecidos.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header-arrow header-arrow--xs bg-brand-color-secondary mt-0"></div>
-    <div class="jumbotron bg-white my-0">
-        <p class="mt-5">El primer paso consiste entonces en efectuar la abstracción e identificar los componentes que intervienen en la creación de dicho sistema; los objetos podrían ser: historias clínicas, usuarios, médicos, pacientes, formas de pago y servicios ofrecidos; esto teniendo en cuenta que en la descripción del requerimiento, son esas palabras las que hacen alusión a sustantivos y de las cuales se pueden identificar <strong>datos (atributos)</strong> y <strong>comportamientos (métodos)</strong>.</p>
-        <p>En la siguiente figura se observa la abstracción realizada para el ejemplo:</p>
-        <p class="text-center p-4"><img class="img-fluid" src="assets/images/pages/tema-1/clases-ejemplo-t11.svg" /></p>
-    </div>
-    <div class="header-ecored" id="tema-12">
-        <h2>1.2 Características</h2>
-    </div>
-    <div class="jumbotron bg-white">
-        <p>Continuando con la teorización respecto a la programación orientada a objetos, es importante asimismo tener claras las características en que se fundamenta, las cuales pueden observarse en siguiente figura:</p>
-        <p class="text-center my-6"><img class="img-fluid" src="assets/images/pages/tema-1/caracteristicas-t11.svg" /></p>
-        <p class="header-step mt-5"><span class="header-step-number text-color-orange">01</span><span class="header-step-title"><strong>Abstracción:</strong> como ya se vio en el apartado anterior, la abstracción consiste en el proceso de identificación de los componentes del sistema, que pasan a ser los objetos y a su vez sus características y funcionalidades, reconociendo estas como atributos y métodos.</span></p>
-        <hr class="my-4" />
-        <p class="header-step"><span class="header-step-number text-color-orange">02</span><span class="header-step-title"><strong>Herencia:</strong> es el proceso mediante el cual unos objetos mantienen sus propios atributos y funcionalidades, pero también toman atributos o funcionalidades de otros; para comprender mejor, se continúa con el ejemplo del centro veterinario, en donde se identifica una clase que es personas, que sería la clase padre, pero se requiere otra clase denominada médicos, llamada la clase hijos, dado que los veterinarios van a tener atributos y métodos diferentes, por lo tanto heredan algunos atributos y métodos de la clase padre, pero tienen también los suyos propios.</span></p>
-        <hr class="my-4" />
-        <p class="header-step"><span class="header-step-number text-color-orange">03</span><span class="header-step-title"><strong>Polimorfismo:</strong> se trata de la característica que permite asignar las mismas instrucciones a diferentes objetos, teniendo en cuenta que cada uno de ellos las va a ejecutar de acuerdo a sus particularidades internas. Para ejemplificarlo, en el sistema del centro veterinario, cuando el médico registra el alta de un paciente que se encuentra hospitalizado, suceden tres cosas: primero se informa a la secretaria para que genere la orden de pago, segundo, se informa en pantalla al veterinario que el alta fue registrada y tercero, se informa al propietario para que recoja al paciente; como puede observarse, en las tres cosas se efectúa la misma acción, la cual es informar internamente a cada uno; esos informes se realizan de manera diferente, pero en realidad se está dando la misma orden a varios objetos. </span></p>
+        <p class="header-step"><span class="header-step-number text-color-orange">03</span><span class="header-step-title"><strong>protected:</strong> el atributo puede ser accedido desde la misma clase, desde las clases del mismo paquete, y desde clases que se hayan heredado de la clase original.</span></p>
+        <p class="mt-5">En el caso del ejemplo static long nota; la privacidad sería por defecto, lo que significa que el atributo puede ser accedido por la misma clase, y también por las clases del mismo paquete.</p>
+        <p>A continuación, se observan las restricciones de acceso, según la privacidad declarada:</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/t11-3.svg" /></p>
     </div>
 </div>

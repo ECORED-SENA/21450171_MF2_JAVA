@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="667" height="363" viewBox="0 0 667 363">
+  <g id="Grupo_10382" data-name="Grupo 10382" transform="translate(-251 -1081)">
+    <rect id="Rectángulo_2821" data-name="Rectángulo 2821" width="232" height="46" rx="23" transform="translate(464 1081)" fill="#014c7f"/>
+    <text id="PRIMITIVOS" transform="translate(464 1092)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="63.134" y="17">PRIMITIVOS</tspan></text>
+    <g id="Grupo_10377" data-name="Grupo 10377">
+      <rect id="Rectángulo_2822" data-name="Rectángulo 2822" width="160" height="46" rx="23" transform="translate(251 1167)" fill="#015e7a"/>
+      <text id="ENTEROS" transform="translate(251 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="45.199" y="16">ENTEROS</tspan></text>
+    </g>
+    <g id="Grupo_10373" data-name="Grupo 10373" transform="translate(24)">
+      <rect id="Rectángulo_2906" data-name="Rectángulo 2906" width="112" height="46" rx="23" transform="translate(275 1230)" fill="#e6eef3"/>
+      <text id="byte" transform="translate(275 1241)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="40.234" y="16">byte</tspan></text>
+    </g>
+    <g id="Grupo_10368" data-name="Grupo 10368" transform="translate(24)">
+      <rect id="Rectángulo_2913" data-name="Rectángulo 2913" width="112" height="46" rx="23" transform="translate(444 1230)" fill="#e6eef3"/>
+      <text id="float" transform="translate(444 1241)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="39.879" y="16">float</tspan></text>
+    </g>
+    <g id="Grupo_10371" data-name="Grupo 10371" transform="translate(24)">
+      <rect id="Rectángulo_2917" data-name="Rectángulo 2917" width="112" height="46" rx="23" transform="translate(613 1230)" fill="#e6eef3"/>
+      <text id="boolean" transform="translate(613 1241)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="26.781" y="16">boolean</tspan></text>
+    </g>
+    <g id="Grupo_10372" data-name="Grupo 10372" transform="translate(24)">
+      <rect id="Rectángulo_2918" data-name="Rectángulo 2918" width="112" height="46" rx="23" transform="translate(782 1230)" fill="#e6eef3"/>
+      <text id="char" transform="translate(782 1241)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="40.352" y="16">char</tspan></text>
+    </g>
+    <g id="Grupo_10374" data-name="Grupo 10374" transform="translate(24)">
+      <rect id="Rectángulo_2907" data-name="Rectángulo 2907" width="112" height="46" rx="23" transform="translate(275 1286)" fill="#e6eef3"/>
+      <text id="short" transform="translate(275 1297)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="37.625" y="16">short</tspan></text>
+    </g>
+    <g id="Grupo_10369" data-name="Grupo 10369" transform="translate(24)">
+      <rect id="Rectángulo_2912" data-name="Rectángulo 2912" width="112" height="46" rx="23" transform="translate(444 1286)" fill="#e6eef3"/>
+      <text id="double" transform="translate(444 1297)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="30.699" y="16">double</tspan></text>
+    </g>
+    <g id="Grupo_10370" data-name="Grupo 10370" transform="translate(24)">
+      <rect id="Rectángulo_2916" data-name="Rectángulo 2916" width="112" height="46" rx="23" transform="translate(613 1286)" fill="#e6eef3"/>
+      <text id="double-2" data-name="double" transform="translate(613 1297)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="30.699" y="16">double</tspan></text>
+    </g>
+    <g id="Grupo_10375" data-name="Grupo 10375" transform="translate(24)">
+      <rect id="Rectángulo_2908" data-name="Rectángulo 2908" width="112" height="46" rx="23" transform="translate(275 1342)" fill="#e6eef3"/>
+      <text id="int" transform="translate(275 1353)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="46.758" y="16">int</tspan></text>
+    </g>
+    <g id="Grupo_10376" data-name="Grupo 10376" transform="translate(24)">
+      <rect id="Rectángulo_2909" data-name="Rectángulo 2909" width="112" height="46" rx="23" transform="translate(275 1398)" fill="#e6eef3"/>
+      <text id="long" transform="translate(275 1409)" fill="#00223d" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="40.074" y="16">long</tspan></text>
+    </g>
+    <g id="Grupo_10378" data-name="Grupo 10378">
+      <rect id="Rectángulo_2903" data-name="Rectángulo 2903" width="160" height="46" rx="23" transform="translate(420 1167)" fill="#015e7a"/>
+      <text id="FLOTANTES" transform="translate(420 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="37.969" y="16">FLOTANTES</tspan></text>
+    </g>
+    <g id="Grupo_10379" data-name="Grupo 10379">
+      <rect id="Rectángulo_2904" data-name="Rectángulo 2904" width="160" height="46" rx="23" transform="translate(589 1167)" fill="#015e7a"/>
+      <text id="LÓGICO" transform="translate(589 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="48.836" y="16">LÓGICO</tspan></text>
+    </g>
+    <g id="Grupo_10380" data-name="Grupo 10380">
+      <rect id="Rectángulo_2905" data-name="Rectángulo 2905" width="160" height="46" rx="23" transform="translate(758 1167)" fill="#015e7a"/>
+      <text id="TEXTO" transform="translate(758 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="56.098" y="16">TEXTO</tspan></text>
+    </g>
+    <path id="Trazado_9604" data-name="Trazado 9604" d="M6022-5512v208" transform="translate(-5742 6725)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9609" data-name="Trazado 9609" d="M6022-5512v96" transform="translate(-5573 6725)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9615" data-name="Trazado 9615" d="M6022-5512v96" transform="translate(-5404 6725)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9620" data-name="Trazado 9620" d="M6022-5512v40" transform="translate(-5235 6725)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9605" data-name="Trazado 9605" d="M6022-5489h19" transform="translate(-5742 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9610" data-name="Trazado 9610" d="M6022-5489h19" transform="translate(-5573 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9618" data-name="Trazado 9618" d="M6022-5489h19" transform="translate(-5404 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9623" data-name="Trazado 9623" d="M6022-5489h19" transform="translate(-5235 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9606" data-name="Trazado 9606" d="M6022-5489h19" transform="translate(-5742 6798)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9611" data-name="Trazado 9611" d="M6022-5489h19" transform="translate(-5573 6798)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9617" data-name="Trazado 9617" d="M6022-5489h19" transform="translate(-5404 6798)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9607" data-name="Trazado 9607" d="M6022-5489h19" transform="translate(-5742 6854)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9608" data-name="Trazado 9608" d="M6022-5489h19" transform="translate(-5742 6910)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <g id="Grupo_10381" data-name="Grupo 10381">
+      <path id="Trazado_9624" data-name="Trazado 9624" d="M6087-5597h507" transform="translate(-5756 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+      <path id="Trazado_9625" data-name="Trazado 9625" d="M6171-5576v-22" transform="translate(-5840 6743)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+      <path id="Trazado_9626" data-name="Trazado 9626" d="M6171-5576v-22" transform="translate(-5671 6743)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+      <path id="Trazado_9627" data-name="Trazado 9627" d="M6171-5576v-22" transform="translate(-5502 6743)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+      <path id="Trazado_9628" data-name="Trazado 9628" d="M6171-5576v-22" transform="translate(-5333 6743)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    </g>
+    <path id="Trazado_9629" data-name="Trazado 9629" d="M6336-5615v17.667" transform="translate(-5756 6742)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+  </g>
+</svg>

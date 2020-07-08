@@ -142,12 +142,12 @@ ul.icon-terminal {
 }
 
 .subtitulo-guion {
-    h2 {
+    h2,h3 {
         overflow: hidden;
         font-weight: 600;
     }
 
-    h2:after {
+    h2:after,h3:after {
         content:"";
         display: inline-block;
         height: 0.5em;
@@ -181,4 +181,8 @@ ol.lista > li:before {
   margin-right: 7px;
   border-radius: 50%;
   font-size: .8em;
+}
+
+.border-bottom-orange {
+    border-bottom: 5px solid $dark-orange;    
 }

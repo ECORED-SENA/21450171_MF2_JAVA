@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="939" height="466" viewBox="0 0 939 466">
+  <g id="Grupo_10839" data-name="Grupo 10839" transform="translate(-105 -2337)">
+    <path id="Trazado_9601" data-name="Trazado 9601" d="M0,0H939V466H0Z" transform="translate(105 2337)" fill="#001f34"/>
+    <text id="class_Empleado_public_static_double_sueldo_public_class_EmpleadoUno_public_static_void_main_String_args_Empleado.sueldo_890000_System.out.println_El_sala" data-name="class Empleado
+    {
+        public static double sueldo;
+    }        
+ 
+public class EmpleadoUno
+    {
+        public static void main ( String args[ ] )
+            {
+                Empleado.sueldo = 890000;
+                System.out.println (“El sala" transform="translate(145 2379.5)" fill="#9fbdf8" font-size="18" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="0" y="17">class</tspan><tspan y="17" fill="#fff"> </tspan><tspan y="17" fill="#19f6d5">Empleado</tspan><tspan fill="#fff"><tspan x="0" y="47" xml:space="preserve">    {</tspan><tspan x="0" y="77" xml:space="preserve">        public </tspan><tspan y="77" fill="#f6246c">static </tspan><tspan y="77">double sueldo;</tspan><tspan x="0" y="107" xml:space="preserve">    }        </tspan><tspan x="0" y="137"> </tspan><tspan x="0" y="167">public </tspan><tspan y="167" fill="#9fbdf8">class </tspan><tspan y="167" fill="#19f6d5">EmpleadoUno</tspan><tspan x="0" y="197" xml:space="preserve">    {</tspan><tspan x="0" y="227" xml:space="preserve">        public </tspan><tspan y="227" fill="#f6246c">static </tspan><tspan y="227">void </tspan><tspan y="227" fill="#19f6d5">main </tspan><tspan y="227">( </tspan><tspan y="227" fill="#ffb86c">String args</tspan><tspan y="227">[ ] )</tspan><tspan x="0" y="257" xml:space="preserve">            {</tspan><tspan x="0" y="287" xml:space="preserve">                </tspan><tspan y="287" fill="#9fbdf8">Empleado</tspan><tspan y="287">.sueldo </tspan><tspan y="287" fill="#f6246c">= </tspan><tspan y="287">890000;</tspan><tspan x="0" y="317" xml:space="preserve">                </tspan><tspan y="317" fill="#9fbdf8">System</tspan><tspan y="317">.out.</tspan><tspan y="317" fill="#9fbdf8">println </tspan><tspan y="317">(“El salario es: ” </tspan><tspan y="317" fill="#f6246c">+</tspan><tspan y="317"> </tspan><tspan y="317" fill="#9fbdf8">Empleado</tspan><tspan y="317">.sueldo);</tspan><tspan x="0" y="347" xml:space="preserve">            }</tspan><tspan x="0" y="377" xml:space="preserve">    }</tspan></tspan></text>
+  </g>
+</svg>

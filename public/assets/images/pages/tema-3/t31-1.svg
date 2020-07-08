@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="791" height="505" viewBox="0 0 791 505">
+  <g id="Grupo_10841" data-name="Grupo 10841" transform="translate(-175 -924)">
+    <rect id="Rectángulo_2821" data-name="Rectángulo 2821" width="232" height="46" rx="23" transform="translate(460 924)" fill="#014c7f"/>
+    <text id="OPERADORES" transform="translate(460 935)" fill="#fff" font-size="18" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="54.991" y="17">OPERADORES</tspan></text>
+    <g id="Grupo_10377" data-name="Grupo 10377" transform="translate(62 -157)">
+      <rect id="Rectángulo_2822" data-name="Rectángulo 2822" width="160" height="46" rx="23" transform="translate(251 1167)" fill="#015e7a"/>
+      <text id="ARITMÉTICOS" transform="translate(251 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="27.98" y="16">ARITMÉTICOS</tspan></text>
+    </g>
+    <rect id="Rectángulo_2822-2" data-name="Rectángulo 2822" width="139" height="46" rx="23" transform="translate(175 1096)" fill="#015e7a"/>
+    <rect id="Rectángulo_2930" data-name="Rectángulo 2930" width="139" height="46" rx="23" transform="translate(324 1096)" fill="#015e7a"/>
+    <rect id="Rectángulo_2931" data-name="Rectángulo 2931" width="139" height="46" rx="23" transform="translate(473 1096)" fill="#015e7a"/>
+    <text id="Básicos" transform="translate(175 1107)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="41.918" y="16">Básicos</tspan></text>
+    <text id="Incrementales" transform="translate(324 1107)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="18.855" y="16">Incrementales</tspan></text>
+    <text id="Combinados" transform="translate(473 1107)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="23.75" y="16">Combinados</tspan></text>
+    <g id="Grupo_10373" data-name="Grupo 10373" transform="translate(223 1159)">
+      <rect id="Rectángulo_2906" data-name="Rectángulo 2906" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_" data-name="+" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="18.332" y="16">+</tspan></text>
+    </g>
+    <g id="Grupo_10395" data-name="Grupo 10395" transform="translate(529 1159)">
+      <rect id="Rectángulo_2906-2" data-name="Rectángulo 2906" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_2" data-name="+=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="13.137" y="16">+=</tspan></text>
+    </g>
+    <g id="Grupo_10405" data-name="Grupo 10405" transform="translate(873 1073)">
+      <rect id="Rectángulo_2906-3" data-name="Rectángulo 2906" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_3" data-name="==" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="12.609" y="16">==</tspan></text>
+    </g>
+    <g id="Grupo_10390" data-name="Grupo 10390" transform="translate(380 1159)">
+      <rect id="Rectángulo_2906-4" data-name="Rectángulo 2906" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_4" data-name="++" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="13.664" y="16">++</tspan></text>
+    </g>
+    <g id="Grupo_10374" data-name="Grupo 10374" transform="translate(223 1215)">
+      <rect id="Rectángulo_2907" data-name="Rectángulo 2907" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_-" data-name="-" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="19.059" y="16">-</tspan></text>
+    </g>
+    <g id="Grupo_10394" data-name="Grupo 10394" transform="translate(529 1215)">
+      <rect id="Rectángulo_2907-2" data-name="Rectángulo 2907" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_-_" data-name="-=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="13.863" y="16">-=</tspan></text>
+    </g>
+    <g id="Grupo_10404" data-name="Grupo 10404" transform="translate(873 1129)">
+      <rect id="Rectángulo_2907-3" data-name="Rectángulo 2907" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_5" data-name="!=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="15.191" y="16">!=</tspan></text>
+    </g>
+    <g id="Grupo_10389" data-name="Grupo 10389" transform="translate(380 1215)">
+      <rect id="Rectángulo_2907-4" data-name="Rectángulo 2907" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_--" data-name="--" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="15.117" y="16">--</tspan></text>
+    </g>
+    <g id="Grupo_10375" data-name="Grupo 10375" transform="translate(223 1271)">
+      <rect id="Rectángulo_2908" data-name="Rectángulo 2908" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_6" data-name="*" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="19.082" y="16">*</tspan></text>
+    </g>
+    <g id="Grupo_10393" data-name="Grupo 10393" transform="translate(529 1271)">
+      <rect id="Rectángulo_2908-2" data-name="Rectángulo 2908" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_7" data-name="*=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="13.887" y="16">*=</tspan></text>
+    </g>
+    <g id="Grupo_10403" data-name="Grupo 10403" transform="translate(873 1185)">
+      <rect id="Rectángulo_2908-3" data-name="Rectángulo 2908" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_8" data-name="&lt;" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="17.75" y="16">&lt;</tspan></text>
+    </g>
+    <g id="Grupo_10376" data-name="Grupo 10376" transform="translate(223 1327)">
+      <rect id="Rectángulo_2909" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_9" data-name="/" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="18.238" y="16">/</tspan></text>
+    </g>
+    <g id="Grupo_10392" data-name="Grupo 10392" transform="translate(529 1327)">
+      <rect id="Rectángulo_2909-2" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_10" data-name="/=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="13.043" y="16">/=</tspan></text>
+    </g>
+    <g id="Grupo_10402" data-name="Grupo 10402" transform="translate(873 1241)">
+      <rect id="Rectángulo_2909-3" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_11" data-name="&gt;" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="17.75" y="16">&gt;</tspan></text>
+    </g>
+    <g id="Grupo_10385" data-name="Grupo 10385" transform="translate(223 1383)">
+      <rect id="Rectángulo_2909-4" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_12" data-name="%" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="16.34" y="16">%</tspan></text>
+    </g>
+    <g id="Grupo_10391" data-name="Grupo 10391" transform="translate(529 1383)">
+      <rect id="Rectángulo_2909-5" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_13" data-name="%=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="11.145" y="16">%=</tspan></text>
+    </g>
+    <g id="Grupo_10428" data-name="Grupo 10428">
+      <g id="Grupo_10400" data-name="Grupo 10400" transform="translate(693 1073)">
+        <rect id="Rectángulo_2906-5" data-name="Rectángulo 2906" width="46" height="46" rx="23" fill="#e6eef3"/>
+        <text id="_14" data-name="&amp;" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="16.82" y="16">&amp;</tspan></text>
+      </g>
+      <g id="Grupo_10399" data-name="Grupo 10399" transform="translate(693 1129)">
+        <rect id="Rectángulo_2907-5" data-name="Rectángulo 2907" width="46" height="46" rx="23" fill="#e6eef3"/>
+        <text id="_15" data-name="|" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="20.551" y="16">|</tspan></text>
+      </g>
+      <g id="Grupo_10398" data-name="Grupo 10398" transform="translate(693 1185)">
+        <rect id="Rectángulo_2908-4" data-name="Rectángulo 2908" width="46" height="46" rx="23" fill="#e6eef3"/>
+        <text id="_16" data-name="&amp;&amp;" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="10.641" y="16">&amp;&amp;</tspan></text>
+      </g>
+      <g id="Grupo_10397" data-name="Grupo 10397" transform="translate(693 1241)">
+        <rect id="Rectángulo_2909-6" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+        <text id="_17" data-name="||" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="18.102" y="16">||</tspan></text>
+      </g>
+      <g id="Grupo_10396" data-name="Grupo 10396" transform="translate(693 1297)">
+        <rect id="Rectángulo_2909-7" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+        <text id="_18" data-name="!" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="20.387" y="16">!</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_10401" data-name="Grupo 10401" transform="translate(873 1297)">
+      <rect id="Rectángulo_2909-8" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_19" data-name="&lt;=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="12.555" y="16">&lt;=</tspan></text>
+    </g>
+    <g id="Grupo_10406" data-name="Grupo 10406" transform="translate(873 1353)">
+      <rect id="Rectángulo_2909-9" data-name="Rectángulo 2909" width="46" height="46" rx="23" fill="#e6eef3"/>
+      <text id="_20" data-name="&gt;=" transform="translate(0 11)" fill="#00223d" font-size="16" font-family="CerebriSans-Bold, Cerebri Sans" font-weight="700"><tspan x="12.555" y="16">&gt;=</tspan></text>
+    </g>
+    <g id="Grupo_10378" data-name="Grupo 10378" transform="translate(206 -157)">
+      <rect id="Rectángulo_2903" data-name="Rectángulo 2903" width="160" height="46" rx="23" transform="translate(420 1167)" fill="#015e7a"/>
+      <text id="LÓGICOS" transform="translate(420 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="43.961" y="16">LÓGICOS</tspan></text>
+    </g>
+    <g id="Grupo_10379" data-name="Grupo 10379" transform="translate(217 -157)">
+      <rect id="Rectángulo_2904" data-name="Rectángulo 2904" width="160" height="46" rx="23" transform="translate(589 1167)" fill="#015e7a"/>
+      <text id="DE_RELACIÓN" data-name="DE RELACIÓN" transform="translate(589 1178)" fill="#fff" font-size="16" font-family="CerebriSans-Regular, Cerebri Sans"><tspan x="28.898" y="16">DE RELACIÓN</tspan></text>
+    </g>
+    <path id="Trazado_9604" data-name="Trazado 9604" d="M6022-5512v264" transform="translate(-5818 6654)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9650" data-name="Trazado 9650" d="M6022-5512v264" transform="translate(-5512 6654)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9655" data-name="Trazado 9655" d="M6022-5512v264" transform="translate(-5348 6568)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9662" data-name="Trazado 9662" d="M6022-5512v320" transform="translate(-5168 6568)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9645" data-name="Trazado 9645" d="M6022-5512v96" transform="translate(-5661 6654)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9605" data-name="Trazado 9605" d="M6022-5489h19" transform="translate(-5818 6671)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9653" data-name="Trazado 9653" d="M6022-5489h19" transform="translate(-5512 6671)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9659" data-name="Trazado 9659" d="M6022-5489h19" transform="translate(-5348 6585)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9665" data-name="Trazado 9665" d="M6022-5489h19" transform="translate(-5168 6585)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9647" data-name="Trazado 9647" d="M6022-5489h19" transform="translate(-5661 6671)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9606" data-name="Trazado 9606" d="M6022-5489h19" transform="translate(-5818 6727)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9652" data-name="Trazado 9652" d="M6022-5489h19" transform="translate(-5512 6727)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9658" data-name="Trazado 9658" d="M6022-5489h19" transform="translate(-5348 6641)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9664" data-name="Trazado 9664" d="M6022-5489h19" transform="translate(-5168 6641)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9646" data-name="Trazado 9646" d="M6022-5489h19" transform="translate(-5661 6727)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9607" data-name="Trazado 9607" d="M6022-5489h19" transform="translate(-5818 6783)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9651" data-name="Trazado 9651" d="M6022-5489h19" transform="translate(-5512 6783)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9657" data-name="Trazado 9657" d="M6022-5489h19" transform="translate(-5348 6697)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9663" data-name="Trazado 9663" d="M6022-5489h19" transform="translate(-5168 6697)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9608" data-name="Trazado 9608" d="M6022-5489h19" transform="translate(-5818 6839)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9648" data-name="Trazado 9648" d="M6022-5489h19" transform="translate(-5512 6839)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9656" data-name="Trazado 9656" d="M6022-5489h19" transform="translate(-5348 6753)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9660" data-name="Trazado 9660" d="M6022-5489h19" transform="translate(-5168 6753)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9641" data-name="Trazado 9641" d="M6022-5489h19" transform="translate(-5818 6895)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9649" data-name="Trazado 9649" d="M6022-5489h19" transform="translate(-5512 6895)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9654" data-name="Trazado 9654" d="M6022-5489h19" transform="translate(-5348 6809)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9661" data-name="Trazado 9661" d="M6022-5489h19" transform="translate(-5168 6809)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9666" data-name="Trazado 9666" d="M6022-5489h19" transform="translate(-5168 6865)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9624" data-name="Trazado 9624" d="M6087-5597h493" transform="translate(-5694 6585)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9670" data-name="Trazado 9670" d="M6087-5597h298" transform="translate(-5842 6671)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9625" data-name="Trazado 9625" d="M6171-5576v-22" transform="translate(-5778 6586)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9667" data-name="Trazado 9667" d="M6171-5576v-22" transform="translate(-5926 6673)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9668" data-name="Trazado 9668" d="M6171-5557v-41" transform="translate(-5777 6654)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9669" data-name="Trazado 9669" d="M6171-5576v-22" transform="translate(-5628 6673)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9627" data-name="Trazado 9627" d="M6171-5576v-22" transform="translate(-5465 6586)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9628" data-name="Trazado 9628" d="M6171-5576v-22" transform="translate(-5285 6586)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+    <path id="Trazado_9629" data-name="Trazado 9629" d="M6336-5615v17.667" transform="translate(-5760 6585)" fill="none" stroke="#ff8f00" stroke-width="1"/>
+  </g>
+</svg>
