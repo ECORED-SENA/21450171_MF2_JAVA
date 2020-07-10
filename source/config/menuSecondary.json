@@ -3,7 +3,7 @@
         "icon": "fa fa-download",
         "slug": "pdf",
         "title": "Descargar PDF",
-        "path": "media/documentos/MF4_Aprovechamiento_de_residuos_en_agricultura_urbana.pdf"
+        "path": "media/documentos/MF2_sintaxis_variables_Java.pdf"
     },
     {
         "icon": "icon glosario",
@@ -12,6 +12,12 @@
         "breadcrumb": ["Glosario"],
         "path": "config/glosario.json"
     },   
+    {
+        "icon": "fa fa-folder-open-o",
+        "slug": "material-complementario",
+        "title": "Material complementario",
+        "path": "pages/material-complementario.html"
+    },    
     {
         "icon": "icon referencias",
         "slug": "referencias",

@@ -1,10 +1,10 @@
 [
   {
-    "letter": "A",
+    "letter": "E",
     "terms": [
       {
-        "title": "Atributo:",
-        "desciption": "Es cada uno de los datos definidos para un objeto."
+        "title": "Expresión:",
+        "desciption": "Línea de código compuesta por variables y operadores."
       }
     ]
   },
@@ -12,8 +12,8 @@
     "letter": "I",
     "terms": [
       {
-        "title": "IDE:",
-        "desciption": "Integrated Development Environment, traducido al español como Entorno de Desarrollo Integrado; es un software que a través de una interfaz gráfica, facilita al programador la escritura de código en diferentes lenguajes de programación."
+        "title": "Interfaz:",
+        "desciption": "Punto de acceso gráfico de un programa."
       }
     ]
   },
@@ -21,12 +21,8 @@
     "letter": "J",
     "terms": [
       {
-        "title": "JDK:",
-        "desciption": "Java Development Kit, traducido al español como Kit de Desarrollo de Java; es un software requerido para correr programas que son escritos en lenguaje Java."
-      },
-      {
-        "title": "JRE:",
-        "desciption": "Java Runtime Environment, consiste en un conjunto de herramientas de software que posibilita la ejecución de programas escritos en Java."
+        "title": "Jerarquía:",
+        "desciption": "Orden en el cual deben ser evaluadas las distintas operaciones de una expresión."
       }
     ]
   },
@@ -34,27 +30,36 @@
     "letter": "M",
     "terms": [
       {
-        "title": "Método:",
-        "desciption": "Es cada una de las funcionalidades definidas para un objeto."
+        "title": "Main:",
+        "desciption": "Método principal de Java que actúa como punto de acceso para los programas."
       }
     ]
   },  
   {
-    "letter": "P",
+    "letter": "O",
     "terms": [
       {
-        "title": "Paradigma:",
-        "desciption": "Consiste en la forma en que se escriben los códigos de un programa."
+        "title": "Operador:",
+        "desciption": "Carácter utilizado para efectuar diferentes acciones sobre las variables."
       }
     ]
   },      
   {
-    "letter": "S",
+    "letter": "T",
     "terms": [
       {
-        "title": "Soluciones a la medida:",
-        "desciption": "Programas creados a partir de una lista de requerimientos definida con anterioridad, de acuerdo con las necesidades del cliente."
+        "title": "Tipo de dato:",
+        "desciption": "Nombre que identifica la clase de información que puede almacenar una variable."
       }
     ]
-  }
+  },
+  {
+    "letter": "V",
+    "terms": [
+      {
+        "title": "Variable:",
+        "desciption": "Espacio de memoria utilizado para almacenar un dato."
+      }
+    ]
+  }  
 ]
