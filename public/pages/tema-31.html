@@ -18,33 +18,186 @@
 </div>
 <div class="container" id="page-introduccion">
     <div class="header-ecored">
-        <h2>1.2 Tipos</h2>
+        <h2>3.1 Operadores</h2>
     </div>
-    <div class="jumbotron bg-white mb-0">
-        <p>Teniendo en cuenta el lugar donde están definidas, la forma de declaración y su accesibilidad, las variables se dividen en tres tipos:</p>
-        <p class="mb-4">Algunos ejemplos de declaración de variables son los siguientes:</p>
-        <div class="subtitulo-guion">
-            <h3>Locales </h3>
+    <div class="jumbotron bg-white">
+        <p>En la siguiente figura se observan los operadores utilizados.</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-3/t31-operadores.svg" /></p>
+        <div class="subtitulo-ecored mt-6 mb-1">
+            <h2> <span class="number text-white">01</span><span>Aritméticos</span></h2>
         </div>
-        <p class="mt-4">Suelen ser declaradas dentro de un método; se crean cuando este es llamado, y se destruyen al salir del mismo. Únicamente es posible acceder dentro del mismo método.</p>
-        <p class="mt-5">A continuación, se observa un ejemplo donde se define y utiliza una variable local dentro del método:</p>
-        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/t12-1.svg" /></p>
-        <p>La variable local es creada y utilizada dentro del método, por lo tanto, la ejecución no presenta ningún inconveniente; sin embargo, si dicha variable intenta utilizarse por fuera del método, como se observa en el siguiente ejemplo, el programa devolvería un error.</p>
-        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/t12-2.svg" /></p>
-        <div class="subtitulo-guion">
-            <h3>Estáticas </h3>
+        <p>Como su nombre lo indica, se utilizan para realizar operaciones aritméticas con las variables de tipo numérico; en el caso de Java, se clasifican en tres categorías que son: básicos, incrementales y combinados.</p>
+        <div class="subtitulo-guion--dark my-5">
+            <h3>Básicos</h3>
         </div>
-        <p class="mt-4">También llamadas variables de clase, son declaradas dentro de una clase, pero por fuera de cualquier método; se crean al iniciar la ejecución del programa, y se destruyen cuando esta finaliza. Pueden ser accedidas con el nombre de la clase, sin ser necesario ningún objeto; solamente puede haber una variable estática por cada clase. </p>
-        <div class="bg-brand-color-light border-bottom-orange my-5">
-            <p class="p-4">Se utilizan especialmente cuando se desea que los objetos tengan referencia a algún valor que sea igual en todas las instancias de la clase, y teniendo en cuenta que dicho valor pueda ser cambiado; esto facilita la modificación de información con una sola acción, dado que basta con editar el valor en la clase principal, y todas sus instancias podrán reconocerlo.</p>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">+</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Suma.</strong> Se utiliza para sumar los valores contenidos en las variables.</span></div>
         </div>
-        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/t12-3.svg" /></p>
-        <p>En el ejemplo anterior, en la clase Empleado se declara el salario como una variable estática, y posteriormente en el main se utiliza dicha variable, únicamente haciendo uso del nombre de la clase, sin que haya la necesidad de un objeto.</p>
-        <div class="subtitulo-guion">
-            <h3>No estáticas </h3>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">-</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Resta.</strong> Se emplea para restar los valores contenidos en las variables.</span></div>
         </div>
-        <p class="mt-4">También conocidas como variables de instancia. Son declaradas dentro de una clase, pero por fuera de cualquier método; se crean al instanciar un objeto de la clase, y se destruyen al destruirse dicho objeto; cada objeto puede tener una copia de la variable no estática.</p>
-        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-1/t12-4.svg" /></p>
-        <P>En el ejemplo anterior, en la clase Empleados, se declaran la edad, el área y el sueldo como variables de instancia (no estáticas) y posteriormente en el main se imprimen los valores de dichas variables, haciendo evidente que para cada objeto se muestra un valor diferente de cada una de ellas.</P>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">*</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Multiplicación.</strong> Se usa para multiplicar los valores contenidos en las variables.</span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">/</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>División.</strong> Se maneja para dividir los valores contenidos en las variables.</span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">%</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Resto de la división.</strong> Se destina para devolver el residuo de una división entera. </span></div>
+        </div>
+        <p class="my-5">En la siguiente figura se observa un ejemplo de utilización de los operadores aritméticos básicos: </p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-3/terminal-1.png" /></p>
+        <p>En la línea de código 3 del ejemplo anterior, se declaran las variables de tipo entero requeridas para realizar operaciones con los operadores aritméticos básicos; posteriormente de las líneas 5 a la 8 se utilizan dichas variables para imprimir la suma, resta, multiplicación y división entre estas.</p>
+        <p class="my-4 font-weight-bold">Salida:</p>
+        <p class="text-center my-5"><img class="img-fluid" src="assets/images/pages/tema-3/terminal-2.png" /></p>
+        <p>En la anterior figura, se observa la ejecución de dicho código.</p>
+        <div class="bg-brand-color-light my-5 p-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-auto"><img class="img-fluid" src="assets/images/pages/tema-3/t3-icono.svg" /></div>
+                <div class="col">
+                    <p class="pr-0"><strong>NOTA:</strong> ejecutar el IDE NetBeans y llevar a cabo todos los ejemplos vistos en el contenido de este documento con el fin de adquirir práctica en la escritura de las secuencias de código en el lenguaje Java.</p>
+                </div>
+            </div>
+        </div>
+        <div class="subtitulo-guion--dark my-5">
+            <h3>Incrementales</h3>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">++</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Incremento.</strong> Incrementa en 1 el valor de una variable.</span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">--</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Decremento.</strong> Decrementa en 1 el valor de una variable.</span></div>
+        </div>
+        <p class="my-5">Según la ubicación del operador, la variable se utiliza y luego se incrementa (operador después de la variable <b>variable++</b>) o se incrementa y luego se utiliza (operador antes de la variable <b>++variable</b>).</p>
+        <p>A continuación se observa un ejemplo de utilización de los operadores aritméticos incrementales.</p>
+        <div class="card my-4">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/sIzdib1sIOQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            <div class="card-body bg-brand-color-secondary text-white">
+                <p><b>Operadores aritméticos incrementales</b></p>
+            </div>
+        </div>
+        <div class="subtitulo-ecored mt-5 mb-1">
+            <h2> <span class="number text-white">02</span><span>Lógicos</span></h2>
+        </div>
+        <p class="my-5">Los operadores lógicos, como su nombre lo indica, permiten construir expresiones lógicas.</p>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>AND lógico.</strong> Evalúa condiciones y devuelve TRUE cuando todas se cumplen. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">|</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>OR lógico.</strong> Evalúa condiciones y devuelve TRUE cuando al menos una se cumple. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&&</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>AND en cortocircuito.</strong> Evalúa condiciones y si la primera no se cumple, devuelve FALSO y no evalúa las demás. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">||</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>OR en cortocircuito.</strong> Evalúa condiciones y si la primera se cumple, devuelve VERDADERO y no evalúa las demás. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">!</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Negación.</strong> Niega el valor enviado. </span></div>
+        </div>
+        <p class="my-5">A continuación se observa un ejemplo de utilización del operador lógico AND (&).</p>
+        <div class="card my-4">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/wBvy2yipuCA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            <div class="card-body bg-brand-color-secondary text-white">
+                <p><b>Operadores lógicos AND</b> </p>
+            </div>
+        </div>
+        <p class="my-5">A continuación se observa un ejemplo de utilización del operador lógico OR.</p>
+        <div class="card my-4">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/C_EQ5DpPte0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            <div class="card-body bg-brand-color-secondary text-white">
+                <p><b>Operadores lógicos OR</b> </p>
+            </div>
+        </div>
+        <p class="my-5">A continuación se observa un ejemplo de utilización del operador lógico AND (&&) y OR (||) en cortocircuito.</p>
+        <div class="card my-4">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ereaxxeDyzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            <div class="card-body bg-brand-color-secondary text-white">
+                <p><b>Operadores lógicos AND – OR en cortocircuito</b> </p>
+            </div>
+        </div>
+        <div class="subtitulo-ecored mt-5 mb-1">
+            <h2> <span class="number text-white">03</span><span>De relación</span></h2>
+        </div>
+        <p class="my-5">Los operadores de relación permiten comparar datos de tipos primitivos; asimismo devuelven un valor booleano o ejecutan las acciones requeridas por el programador, según la comparación efectuada.</p>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">==</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Igual a.</strong> Evalúa si una variable contiene el mismo valor que la otra. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">!=</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Diferente a.</strong> Evalúa si una variable contiene un valor diferente que la otra. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&lt;</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Menor que.</strong> Evalúa si una variable contiene un valor menor que la otra. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&gt;</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Mayor que.</strong> Evalúa si una variable contiene un valor mayor que la otra. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&lt;=</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Menor o igual que.</strong> Evalúa si una variable contiene un valor menor o igual que la otra. </span></div>
+        </div>
+        <div class="row align-items-center mb-2">
+            <div class="col-auto">
+                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">&gt;=</span></div>
+            </div>
+            <div class="col ml-n2"><span><strong>Mayor o igual que.</strong> Evalúa si una variable contiene un valor mayor o igual que la otra. </span></div>
+        </div>
+        <p class="my-5">A continuación se observa un ejemplo de utilización de los operadores aritméticos de relación.</p>
+        <div class="card my-4">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/eEeJtrL2gOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+            <div class="card-body bg-brand-color-secondary text-white">
+                <p><b>Operadores de relación</b></p>
+            </div>
+        </div>
     </div>
 </div>

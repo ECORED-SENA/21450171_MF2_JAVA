@@ -4,49 +4,258 @@ include ../mixins/functions
 .container#page-introduccion
 
     .header-ecored
-        h2 1.2 Tipos
+        h2 3.1 Operadores
 
+    .jumbotron.bg-white
 
-    .jumbotron.bg-white.mb-0
-
-        p Teniendo en cuenta el lugar donde están definidas, la forma de declaración y su accesibilidad, las variables se dividen en tres tipos:
-
-        p.mb-4 Algunos ejemplos de declaración de variables son los siguientes:
-
-        .subtitulo-guion
-            h3 Locales   
-
-        p.mt-4 Suelen ser declaradas dentro de un método; se crean cuando este es llamado, y se destruyen al salir del mismo. Únicamente es posible acceder dentro del mismo método.
-
-        p.mt-5 A continuación, se observa un ejemplo donde se define y utiliza una variable local dentro del método:
+        p En la siguiente figura se observan los operadores utilizados.
 
         p.text-center.my-5
-            img(src="assets/images/pages/tema-1/t12-1.svg").img-fluid
+            img(src="assets/images/pages/tema-3/t31-operadores.svg").img-fluid
 
-        p La variable local es creada y utilizada dentro del método, por lo tanto, la ejecución no presenta ningún inconveniente; sin embargo, si dicha variable intenta utilizarse por fuera del método, como se observa en el siguiente ejemplo, el programa devolvería un error.
+        
+        .subtitulo-ecored.mt-6.mb-1
+            h2 
+                span.number.text-white 01
+                span Aritméticos
+
+
+        p Como su nombre lo indica, se utilizan para realizar operaciones aritméticas con las variables de tipo numérico; en el caso de Java, se clasifican en tres categorías que son: básicos, incrementales y combinados.
+
+        .subtitulo-guion--dark.my-5
+            h3 Básicos
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold +
+            .col.ml-n2
+                span #[strong Suma.] Se utiliza para sumar los valores contenidos en las variables.
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold -
+            .col.ml-n2
+                span #[strong Resta.] Se emplea para restar los valores contenidos en las variables.
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold *
+            .col.ml-n2
+                span #[strong Multiplicación.] Se usa para multiplicar los valores contenidos en las variables.
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold /
+            .col.ml-n2
+                span #[strong División.] Se maneja para dividir los valores contenidos en las variables.
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold %
+            .col.ml-n2
+                span #[strong Resto de la división.] Se destina para devolver el residuo de una división entera.    
+
+
+        p.my-5 En la siguiente figura se observa un ejemplo de utilización de los operadores aritméticos básicos:                      
 
         p.text-center.my-5
-            img(src="assets/images/pages/tema-1/t12-2.svg").img-fluid
+            img(src="assets/images/pages/tema-3/terminal-1.png").img-fluid        
 
-        .subtitulo-guion
-            h3 Estáticas   
-
-        p.mt-4 También llamadas variables de clase, son declaradas dentro de una clase, pero por fuera de cualquier método; se crean al iniciar la ejecución del programa, y se destruyen cuando esta finaliza. Pueden ser accedidas con el nombre de la clase, sin ser necesario ningún objeto; solamente puede haber una variable estática por cada clase.  
-
-        .bg-brand-color-light.border-bottom-orange.my-5
-            p.p-4 Se utilizan especialmente cuando se desea que los objetos tengan referencia a algún valor que sea igual en todas las instancias de la clase, y teniendo en cuenta que dicho valor pueda ser cambiado; esto facilita la modificación de información con una sola acción, dado que basta con editar el valor en la clase principal, y todas sus instancias podrán reconocerlo.
+        p En la línea de código 3 del ejemplo anterior, se declaran las variables de tipo entero requeridas para realizar operaciones con los operadores aritméticos básicos; posteriormente de las líneas 5 a la 8 se utilizan dichas variables para imprimir la suma, resta, multiplicación y división entre estas.
+        
+        p.my-4.font-weight-bold Salida:
 
         p.text-center.my-5
-            img(src="assets/images/pages/tema-1/t12-3.svg").img-fluid
+            img(src="assets/images/pages/tema-3/terminal-2.png").img-fluid 
 
-        p En el ejemplo anterior, en la clase Empleado se declara el salario como una variable estática, y posteriormente en el main se utiliza dicha variable, únicamente haciendo uso del nombre de la clase, sin que haya la necesidad de un objeto.
+        p En la anterior figura, se observa la ejecución de dicho código.
 
-        .subtitulo-guion
-            h3 No estáticas   
+        .bg-brand-color-light.my-5.p-4
+            .row.align-items-center.justify-content-center
+                .col-auto
+                    img(src="assets/images/pages/tema-3/t3-icono.svg").img-fluid
+                .col
+                    p.pr-0 #[strong NOTA:] ejecutar el IDE NetBeans y llevar a cabo todos los ejemplos vistos en el contenido de este documento con el fin de adquirir práctica en la escritura de las secuencias de código en el lenguaje Java.
 
-        p.mt-4 También conocidas como variables de instancia. Son declaradas dentro de una clase, pero por fuera de cualquier método; se crean al instanciar un objeto de la clase, y se destruyen al destruirse dicho objeto; cada objeto puede tener una copia de la variable no estática.
+        .subtitulo-guion--dark.my-5
+            h3 Incrementales
 
-        p.text-center.my-5
-            img(src="assets/images/pages/tema-1/t12-4.svg").img-fluid
+        .row.align-items-center.mb-2
 
-        P En el ejemplo anterior, en la clase Empleados, se declaran la edad, el área y el sueldo como variables de instancia (no estáticas) y posteriormente en el main se imprimen los valores de dichas variables, haciendo evidente que para cada objeto se muestra un valor diferente de cada una de ellas.
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold ++
+            .col.ml-n2
+                span #[strong Incremento.] Incrementa en 1 el valor de una variable.
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold --
+            .col.ml-n2
+                span #[strong Decremento.] Decrementa en 1 el valor de una variable.
+
+        p.my-5 Según la ubicación del operador, la variable se utiliza y luego se incrementa (operador después de la variable <b>variable++</b>) o se incrementa y luego se utiliza (operador antes de la variable <b>++variable</b>).
+
+        p A continuación se observa un ejemplo de utilización de los operadores aritméticos incrementales.
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/sIzdib1sIOQ', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body.bg-brand-color-secondary.text-white
+                p <b>Operadores aritméticos incrementales</b>
+
+
+        .subtitulo-ecored.mt-5.mb-1
+            h2 
+                span.number.text-white 02
+                span Lógicos
+
+
+        p.my-5 Los operadores lógicos, como su nombre lo indica, permiten construir expresiones lógicas.
+
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &
+            .col.ml-n2
+                span #[strong AND lógico.] Evalúa condiciones y devuelve TRUE cuando todas se cumplen.               
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold |
+            .col.ml-n2
+                span #[strong OR lógico.] Evalúa condiciones y devuelve TRUE cuando al menos una se cumple.         
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &&
+            .col.ml-n2
+                span #[strong AND en cortocircuito.] Evalúa condiciones y si la primera no se cumple, devuelve FALSO y no evalúa las demás.                
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold ||
+            .col.ml-n2
+                span #[strong OR en cortocircuito.] Evalúa condiciones y si la primera se cumple, devuelve VERDADERO y no evalúa las demás.                    
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold !
+            .col.ml-n2
+                span #[strong Negación.] Niega el valor enviado.                
+
+
+        p.my-5 A continuación se observa un ejemplo de utilización del operador lógico AND (&).
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/wBvy2yipuCA', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body.bg-brand-color-secondary.text-white
+                p <b>Operadores lógicos AND</b>                
+
+        p.my-5 A continuación se observa un ejemplo de utilización del operador lógico OR.
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/C_EQ5DpPte0', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body.bg-brand-color-secondary.text-white
+                p <b>Operadores lógicos OR</b>                       
+
+
+        p.my-5 A continuación se observa un ejemplo de utilización del operador lógico AND (&&) y OR (||) en cortocircuito.
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/ereaxxeDyzg', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body.bg-brand-color-secondary.text-white
+                p <b>Operadores lógicos AND – OR en cortocircuito</b>                 
+
+
+        .subtitulo-ecored.mt-5.mb-1
+            h2 
+                span.number.text-white 03
+                span De relación
+
+
+        p.my-5 Los operadores de relación permiten comparar datos de tipos primitivos; asimismo devuelven un valor booleano o ejecutan las acciones requeridas por el programador, según la comparación efectuada.
+
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold ==
+            .col.ml-n2
+                span #[strong Igual a.] Evalúa si una variable contiene el mismo valor que la otra.           
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold !=
+            .col.ml-n2
+                span #[strong Diferente a.] Evalúa si una variable contiene un valor diferente que la otra.                 
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &lt;
+            .col.ml-n2
+                span #[strong Menor que.] Evalúa si una variable contiene un valor menor que la otra.         
+
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &gt;
+            .col.ml-n2
+                span #[strong Mayor que.] Evalúa si una variable contiene un valor mayor que la otra. 
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &lt;=
+            .col.ml-n2
+                span #[strong Menor o igual que.] Evalúa si una variable contiene un valor menor o igual que la otra.          
+
+
+        .row.align-items-center.mb-2
+
+            .col-auto
+                .avatar.avatar-sm
+                    span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold &gt;=
+            .col.ml-n2
+                span #[strong Mayor o igual que.] Evalúa si una variable contiene un valor mayor o igual que la otra.   
+
+        p.my-5 A continuación se observa un ejemplo de utilización de los operadores aritméticos de relación.
+
+        .card.my-4
+            .embed-responsive.embed-responsive-16by9
+                iframe.embed-responsive-item(width='560', height='315', src='https://www.youtube.com/embed/eEeJtrL2gOE', frameborder='0', allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture', allowfullscreen='')
+            .card-body.bg-brand-color-secondary.text-white
+                p <b>Operadores de relación</b>

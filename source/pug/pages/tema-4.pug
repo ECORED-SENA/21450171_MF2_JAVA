@@ -1,144 +1,73 @@
 include ../mixins/functions
++pageHeader("Introducción", "assets/images/header/header_media.svg")
 
-+pageHeader('Titulo del Tema', 'assets/images/header/header_media.svg')
-
-.container.card-border-bottom
+.container#page-introduccion
 
     .header-ecored
-        h1 4. Mezclas 
+        h1 4. Funciones
 
-    p De acuerdo con los principales sustratos vistos anteriormente que se utilizan en los procesos de agricultura urbana, es poco probable que un solo material cubra todos los requerimientos de las especies vegetales para su crecimiento y desarrollo. Por lo tanto, es preciso realizar mezclas de materiales que tengan propiedades físicas y químicas diferentes, con lo cual se logra conseguir un sustrato con las condiciones propicias para el desarrollo de las diferentes especies vegetales.
+    .jumbotron.bg-white.mb-0
 
-    p Es importante tener en cuenta que los materiales inertes mezclados con materiales orgánicos, producen excelentes resultados porque la materia orgánica es un componente activo y al ser incorporada a un sustrato inorgánico, mejorar características muy importantes como:
+        .row.align-items-center
+            .col-auto
+                img(src="assets/images/pages/tema-4/t4-icono.svg").img-fluid
+            .col
+                p Las funciones en Java también son conocidas como métodos y deben definirse dentro de las clases. Consisten en una serie de líneas de código que utilizan parámetros para realizar acciones.
 
-    ul
-        li El espacio poroso
-        li Incrementa la retención de humedad
-        li Incrementa la capacidad de intercambio catiónico.
+                p 
+                    strong Pese a lo anterior, los conceptos de método y función tienen como diferencia que un método no devuelve nada, en cambio una función sí lo hace.
 
-    p Es por lo anterior que resulta recomendable realizar mezclas en diferentes proporciones de cada material para conseguir los sustratos con las características físicas, químicas y biológicas óptimas para el desarrollo de las especies vegetales que se vayan a producir. 
+                p Crear funciones es de gran importancia en el desarrollo de soluciones, ya que permiten separar el código de acuerdo con los requerimientos, implementando cada utilidad del programa en un método independiente.
+                
+                
+        p.my-5 La sintaxis para declarar una función es la siguiente:
+            
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-4/terminal-1.png").img-fluid
 
-    
-    p.text-center.mt-5.mb-0
-        img(src="assets/images/pages/tema-4/t4.svg").img-fluid.mb-3.mb-md-0    
-    .card.mb-5.mt-0
-        .card-body
-            p Materiales como la arena, la escoria o la piedra pómez entre otros, son excelentes como mezcladores para garantizar la distribución de la humedad, las proporciones de cada uno dependerán del análisis y las características requeridas para los sustratos.
+        ul.bg-color-dark.my-5
+            li 
+                span #[strong acceso:] corresponde al modificador de acceso y permite controlar el acceso a los datos que componen un objeto; puede ser public, protected, private o default.
+            li 
+                span #[strong modificador:] es opcional y puede tomar los valores final o static.
+            li 
+                span #[strong tipo:] corresponde al tipo de dato del valor que la función va a retornar; puede ser int, float, booleano o cualquiera de los utilizados según se requiera.
+            li 
+                span #[strong nombre:] nombre que identifica la función para invocarla.
+            li 
+                span #[strong tipoParametro:] el tipo de dato que recibe la función como parámetro.
+            li 
+                span #[strong nombreParametro:] el nombre del parámetro recibido.
+            li 
+                span #[strong instruccion1… instruccionN:] sentencias ejecutadas al invocar la función.
+            li 
+                span #[strong return resultado:] valor devuelto por la función.
 
+        p.my-5 Parar comprender mejor esta temática, se observa en la siguiente imagen una aplicación creada por NetBeans, que por medio de funciones recibe dos números enteros y realiza con estos las cuatro operaciones matemáticas básicas.
 
-    .header-arrow.my-5
-        h3.text-center A continuación se presentan algunas de las mezclas más usadas para preparar sustratos en la agricultura urbana: 
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-4/nb-1.png").img-fluid
 
+        p.mt-5 A partir de la línea 21 se declararon las cuatro funciones encargadas de sumar, restar, multiplicar y dividir los dos parámetros que les sean enviados.
 
-    p.text-center.my-5
-        img(src="assets/images/pages/tema-4/t4-2.svg").img-fluid.mb-3.mb-md-0  
+        p Dentro del main, en la línea 6 se declaran las variables que son enviadas como parámetro a cada función, y a partir de la línea 8, también dentro del main, se invocan las funciones y se imprimen los resultados devueltos.
 
-    .card.my-5
-        .card-body
-            p Una mezcla que resulta muy común en algunas zonas urbanas marginadas, donde los materiales están disponibles es: gravilla, ladrillo picado y aserrín, mezclados en proporciones iguales
+        p A simple vista pareciera que haber escrito todo el código dentro del main fuese más sencillo; sin embargo si se piensa en el alcance de los programas, la escritura de las rutinas de programación sin utilizar funciones, se torna desordenada y poco funcional, ya que en soluciones de alta envergadura se requiere efectuar acciones repetitivas que son facilitadas con el uso de funciones; pudiendo de esta manera invocarlas en distintas partes, sin que sea necesario repetir la escritura del código completo.
+                
+    .bg-brand-color-light.mt-0
 
+        .row.align-items-center.p-4
+            .col-auto
+                img(src="assets/images/pages/tema-3/t32-icono.svg").img-fluid
+            .col
+                p #[strong El lenguaje JAVA] cuenta con una serie de métodos que ya han sido declarados con anterioridad y por lo tanto para utilizarlos basta con invocarlos con sus respectivos argumentos; varios de esos métodos corresponden a la <b>clase math</b>. 
 
-    p.text-center.my-5
-        img(src="assets/images/pages/tema-4/t4-3.svg").img-fluid.mb-3.mb-md-0  
-
-
-    .card.my-5
-        .card-body
-            p Además, la mezcla de dos partes de cascarilla de arroz con una parte de arena fina, ha resultado muy efectiva para establecer cultivos verticales en bolsas plásticas.
-
-
-    p.text-center.my-5
-        img(src="assets/images/pages/tema-4/t4-4.svg").img-fluid.mb-3.mb-md-0  
-
-    p Como una norma general de las mezclas, es importante tener en cuenta que las mezclas más sueltas se utilizan para los cultivos que se realizan bajo techo, mientras que las más pesadas son apropiadas para los cultivos a libre exposición.
-
-    p.text-center.mt-5.mb-0
-        img(src="assets/images/pages/tema-4/caso-estudio.svg").img-fluid.mb-3.mb-md-0    
-    .card.mb-5.mt-0
-        .card-body
-            p Un estudio realizado en tres Instituciones Educativas de Bogotá, por la Corporación Colombia de Investigación Agropecuaria CORPOICA, analizó el comportamiento del cultivo de lechuga en cinco diferentes sustratos los cuales fueron: 
-
-            .row.justify-content-center
-                .col-12.col-md-6
-                    ul.bg-color-dark.my-5
-                        li 
-                            span Suelo tratado (cal, compost, cascarilla cruda)
-                        li 
-                            span Escoria (residuo de carbón vegetal quemado)
-                        li 
-                            span Cascarilla quemada
-                        li 
-                            span Carbón vegetal (junto con arena en una proporción de 2:1)
-                        li 
-                            span Humus sólido (mezcla de suelo, humus sólido y cascarilla cruda en una proporción de 2:1:1). 
-
-            p.text-center.font-weight-bolder Los resultados obtenidos fueron los siguientes:
+                p Adicionalmente, en la clase math también se encuentra una constante de uso común que es el valor de PI (conocido usualmente como 3,1416), el cual se puede utilizar así: <b>Math.PI</b>. 
 
 
-            .row.justify-content-center.mt-5
-                .col-10.col-md-8
-                    .card-media(style="background: rgba(145,98,74,.2);")
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="assets/images/pages/tema-4/i1.svg").img-fluid
-                            .card__copy 
-                                p Los sustratos hechos de dos o más materiales mezclados entre sí, demostraron  mejores propiedades que aquellos que contenían un único elemento.
+    .jumbotron.bg-white.my-0
 
+        p En la siguiente imagen se observa un ejemplo que utiliza algunos de los métodos de la clase <i>math</i>. 
 
-            .row.justify-content-center.mt-5
-                .col-10.col-md-8
-                    .card-media(style="background: rgba(145,98,74,.2);")
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="assets/images/pages/tema-4/i2.svg").img-fluid
-                            .card__copy 
-                                p Los sustratos de cascarilla cruda y quemada fueron los menos eficientes debido a su baja capacidad de retención de humedad y a la dificultad de conseguir una humedad homogénea. 
-
-
-            .row.justify-content-center.mt-5
-                .col-10.col-md-8
-                    .card-media(style="background: rgba(145,98,74,.2);")
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="assets/images/pages/tema-4/i3.svg").img-fluid
-                            .card__copy 
-                                p La cáscara de arroz es un subproducto de la industria molinera, que no está disponible localmente, así que el principal costo es el transporte.
-
-
-            .row.justify-content-center.mt-5
-                .col-10.col-md-8
-                    .card-media(style="background: rgba(145,98,74,.2);")
-                        .card-media__body                 
-                            figure.card__figure
-                                img(src="assets/images/pages/tema-4/i4.svg").img-fluid
-                            .card__copy 
-                                p Las mezclas de humus sólido (combinado con suelo y cascarilla cruda) y compost (combinado con cal y cascarilla cruda) presentaron las mejores características en términos de tasa de germinación; capacidad de retención de la humedad; infiltración y drenaje; color de la cosecha; conservación ambiental; costo y disponibilidad a nivel local; y calidad. Con estas dos mezclas, los agricultores obtuvieron lechugas con un mayor número de hojas y un peso mayor. Los otros tipos de sustrato produjeron lechugas con deficiencias nutricionales siendo un producto de menor calidad. 
-
-                                
-                                                               
-
-    #tema-41.header-ecored
-        h2 4.1 Características 
-
-    p Es importante tener en cuenta que las proporciones de cada uno de los materiales mezclados que se utilizan para formar un sustrato, deben tener como fin primordial conseguir que el soporte para las plantas tenga las siguientes diez características:
-
-    ol
-        li Brindar retención de humedad
-        li Proveer aireación del sistema radicular
-        li Ser estable físicamente
-        li Ser inerte químicamente
-        li Ser inerte biológicamente
-        li Buen drenaje
-        li Alta capilaridad
-        li Ser liviano
-        li Estar disponible
-        li Ser de bajo costo
-
-    #tema-42.header-ecored
-        h2 4.2 Tipos
-
-    p Al momento de realizar las mezclas para formar un sustrato que favorezca el desarrollo los cultivos, además de lo dicho anteriormente, es necesario tener en cuenta la disponibilidad de los materiales y el fin que se le va a dar al sustrato.
-
-    .jumbotron.bg-white.my-5
-        p.text-center.mt-o.mb-5
-            img(src="assets/images/pages/tema-4/t4-5.svg").img-fluid.mb-3.mb-md-0   
+        p.text-center.my-5
+            img(src="assets/images/pages/tema-4/nb-2.png").img-fluid        
