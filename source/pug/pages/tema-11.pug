@@ -27,15 +27,15 @@ include ../mixins/functions
 
         p.header-step.mt-5
             span.header-step-number.text-color-orange 1.
-            span.header-step-title #[strong private:] el atributo puede ser accedido únicamente por la misma clase.
+            span.header-step-title #[strong Private:] el atributo puede ser accedido únicamente por la misma clase.
         hr.my-4
         p.header-step
             span.header-step-number.text-color-orange 2.
-            span.header-step-title #[strong public:] el atributo puede ser accedido desde cualquier clase o instancia.
+            span.header-step-title #[strong Public:] el atributo puede ser accedido desde cualquier clase o instancia.
         hr.my-4
         p.header-step
             span.header-step-number.text-color-orange 3.
-            span.header-step-title #[strong protected:] el atributo puede ser accedido desde la misma clase, desde las clases del mismo paquete, y desde clases que se hayan heredado de la clase original.
+            span.header-step-title #[strong Protected:] el atributo puede ser accedido desde la misma clase, desde las clases del mismo paquete, y desde clases que se hayan heredado de la clase original.
 
 
         p.mt-5 En el caso del ejemplo static long nota; la privacidad sería por defecto, lo que significa que el atributo puede ser accedido por la misma clase, y también por las clases del mismo paquete.
